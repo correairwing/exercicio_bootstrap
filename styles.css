@@ -14,12 +14,12 @@ h1, h2 {
     font-size: 46px;
 }
 
-.nav .nav-link.active {
+#cabecalho .nav .nav-link.active {
     background-color: #fff;
     color: rgb(21, 184, 35) ;
 }
 
-.nav .nav-link,
+#cabecalho .nav .nav-link,
 .navbar-brand,
 .navbar-brand:hover {
     color:#fff;
@@ -42,8 +42,16 @@ h1, h2 {
     height: 300px;
 }
 
-footer {
-    height: 300px;
+.nav-selection .nav-link.active {
     background-color: rgb(21, 184, 35);
-    margin-top: 48px;
+    color: #fff;
+}
+
+.nav-selection .nav-link:hover {
+    color: #000;
+}
+
+.nav-selection .nav-link {
+    color: rgb(21, 184, 35);
+    font-size: 18px;
 }
